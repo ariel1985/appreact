@@ -1,0 +1,60 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.gradientbg {
+  background: rgb(2, 0, 36);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    267deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(22, 114, 152, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin: 2%;
+  padding: 1%;
+}
+
+.hideme {
+  display: none;
+}
+.showme {
+  display: block;
+}
+
+.form-horizontal {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.appbtn {
+  margin: 5%;
+}
+
+.flipper {
+  height: 400px;
+  min-width: 200px;
+  float: left;
+  margin: 1%;
+  background-color: white;
+}
+.appimg {
+  width: 160px;
+  margin: 0 auto;
+}
