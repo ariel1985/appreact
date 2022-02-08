@@ -620,13 +620,13 @@ module.exports = require('./cjs/react-refresh-runtime.development.js');
     exports.setSignature = setSignature;
 })();
 
-},{}],"7nZVA":[function(require,module,exports) {
+},{}],"iKiqL":[function(require,module,exports) {
 "use strict";
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "890e741a975ef6c8";
+module.bundle.HMR_BUNDLE_ID = "0a8ecb283d214d75";
 function _toConsumableArray(arr) {
     return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread();
 }
@@ -996,11 +996,11 @@ function hmrAcceptRun(bundle, id) {
     acceptedAssets[id] = true;
 }
 
-},{}],"8lqZg":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$20e5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"bB7Pu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$e4e3 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$20e5.prelude(module);
+$parcel$ReactRefreshHelpers$e4e3.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -1015,17 +1015,17 @@ var _bootstrapCss = require("bootstrap/dist/css/bootstrap.css");
 var _appCss = require("./app.css");
 _reactDomDefault.default.render(/*#__PURE__*/ _jsxDevRuntime.jsxDEV(_appJsDefault.default, {
 }, void 0, false, {
-    fileName: "src/index.js",
+    fileName: "index.js",
     lineNumber: 7,
     columnNumber: 17
 }, undefined), document.getElementById("root"));
 
-  $parcel$ReactRefreshHelpers$20e5.postlude(module);
+  $parcel$ReactRefreshHelpers$e4e3.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App.js":"2kQhy","bootstrap/dist/css/bootstrap.css":"jJvnD","./app.css":"j7YWT","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom":"j6uA9","./App.js":"2Ew96","bootstrap/dist/css/bootstrap.css":"jJvnD","./app.css":"4slL4","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 'use strict';
 module.exports = require('./cjs/react-jsx-dev-runtime.development.js');
 
@@ -22771,11 +22771,11 @@ module.exports = require('./cjs/scheduler-tracing.development.js');
     exports.unstable_wrap = unstable_wrap;
 })();
 
-},{}],"2kQhy":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$f00f = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{}],"2Ew96":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$c1db = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$f00f.prelude(module);
+$parcel$ReactRefreshHelpers$c1db.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -22844,7 +22844,7 @@ function App() {
         data: coinsDataState,
         userInput: stateUserInput
     }, void 0, false, {
-        fileName: "src/App.js",
+        fileName: "App.js",
         lineNumber: 70,
         columnNumber: 13
     }, this));
@@ -22858,7 +22858,7 @@ function App() {
                         className: "header",
                         children: "Welcome!"
                     }, void 0, false, {
-                        fileName: "src/App.js",
+                        fileName: "App.js",
                         lineNumber: 78,
                         columnNumber: 9
                     }, this),
@@ -22870,7 +22870,7 @@ function App() {
                                 className: "form-label",
                                 children: "Please Enter a Valid Coin to Login: "
                             }, void 0, false, {
-                                fileName: "src/App.js",
+                                fileName: "App.js",
                                 lineNumber: 80,
                                 columnNumber: 11
                             }, this),
@@ -22882,13 +22882,13 @@ function App() {
                                 onChange: handleInputChange,
                                 placeholder: "Enter Coin Code"
                             }, void 0, false, {
-                                fileName: "src/App.js",
+                                fileName: "App.js",
                                 lineNumber: 81,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
-                        fileName: "src/App.js",
+                        fileName: "App.js",
                         lineNumber: 79,
                         columnNumber: 9
                     }, this),
@@ -22897,7 +22897,7 @@ function App() {
                         onClick: handleButtonClick,
                         children: "Login"
                     }, void 0, false, {
-                        fileName: "src/App.js",
+                        fileName: "App.js",
                         lineNumber: 83,
                         columnNumber: 9
                     }, this),
@@ -22907,14 +22907,14 @@ function App() {
                             "Searching for coin. ",
                             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("br", {
                             }, void 0, false, {
-                                fileName: "src/App.js",
+                                fileName: "App.js",
                                 lineNumber: 84,
                                 columnNumber: 58
                             }, this),
                             " Thank you for waiting..."
                         ]
                     }, void 0, true, {
-                        fileName: "src/App.js",
+                        fileName: "App.js",
                         lineNumber: 84,
                         columnNumber: 9
                     }, this),
@@ -22922,7 +22922,7 @@ function App() {
                         className: msgState,
                         children: "Error - Please type a valid coin"
                     }, void 0, false, {
-                        fileName: "src/App.js",
+                        fileName: "App.js",
                         lineNumber: 85,
                         columnNumber: 9
                     }, this),
@@ -22930,23 +22930,23 @@ function App() {
                         className: msg2State,
                         children: "Error - please check internet"
                     }, void 0, false, {
-                        fileName: "src/App.js",
+                        fileName: "App.js",
                         lineNumber: 86,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "src/App.js",
+                fileName: "App.js",
                 lineNumber: 77,
                 columnNumber: 7
             }, this)
         }, void 0, false, {
-            fileName: "src/App.js",
+            fileName: "App.js",
             lineNumber: 75,
             columnNumber: 5
         }, this)
     }, void 0, false, {
-        fileName: "src/App.js",
+        fileName: "App.js",
         lineNumber: 74,
         columnNumber: 3
     }, this));
@@ -22961,16 +22961,16 @@ _c = App;
 var _c;
 $RefreshReg$(_c, "App");
 
-  $parcel$ReactRefreshHelpers$f00f.postlude(module);
+  $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Coin":"054es","./useFetch":"7fZsi","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"054es":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$5a9e = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","./Coin":"bZOEv","./useFetch":"7pCeG","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"bZOEv":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$bf18 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$5a9e.prelude(module);
+$parcel$ReactRefreshHelpers$bf18.prelude(module);
 
 try {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -22980,7 +22980,7 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _reactFlippy = require("react-flippy");
 var _reactFlippyDefault = parcelHelpers.interopDefault(_reactFlippy);
-var _cryptoIconPng = require("./../assets/crypto-icon.png");
+var _cryptoIconPng = require("./assets/crypto-icon.png");
 var _cryptoIconPngDefault = parcelHelpers.interopDefault(_cryptoIconPng);
 var _s = $RefreshSig$();
 function Coin(props) {
@@ -23023,7 +23023,7 @@ function Coin(props) {
             /*#__PURE__*/ _jsxDevRuntime.jsxDEV("h1", {
                 children: " Coins Data"
             }, void 0, false, {
-                fileName: "src/Coin.js",
+                fileName: "Coin.js",
                 lineNumber: 42,
                 columnNumber: 7
             }, this),
@@ -23041,12 +23041,12 @@ function Coin(props) {
                                 onClick: getPrevious,
                                 children: "Previous"
                             }, void 0, false, {
-                                fileName: "src/Coin.js",
+                                fileName: "Coin.js",
                                 lineNumber: 47,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
-                            fileName: "src/Coin.js",
+                            fileName: "Coin.js",
                             lineNumber: 46,
                             columnNumber: 11
                         }, this),
@@ -23067,12 +23067,12 @@ function Coin(props) {
                                     " "
                                 ]
                             }, void 0, true, {
-                                fileName: "src/Coin.js",
+                                fileName: "Coin.js",
                                 lineNumber: 49,
                                 columnNumber: 84
                             }, this)
                         }, void 0, false, {
-                            fileName: "src/Coin.js",
+                            fileName: "Coin.js",
                             lineNumber: 49,
                             columnNumber: 11
                         }, this),
@@ -23084,23 +23084,23 @@ function Coin(props) {
                                 onClick: getNext,
                                 children: "Next"
                             }, void 0, false, {
-                                fileName: "src/Coin.js",
+                                fileName: "Coin.js",
                                 lineNumber: 51,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
-                            fileName: "src/Coin.js",
+                            fileName: "Coin.js",
                             lineNumber: 50,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
-                    fileName: "src/Coin.js",
+                    fileName: "Coin.js",
                     lineNumber: 44,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "src/Coin.js",
+                fileName: "Coin.js",
                 lineNumber: 43,
                 columnNumber: 7
             }, this),
@@ -23128,12 +23128,12 @@ function Coin(props) {
                                             className: "heading",
                                             children: val.symbol
                                         }, void 0, false, {
-                                            fileName: "src/Coin.js",
+                                            fileName: "Coin.js",
                                             lineNumber: 68,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "src/Coin.js",
+                                        fileName: "Coin.js",
                                         lineNumber: 67,
                                         columnNumber: 19
                                     }, this),
@@ -23142,18 +23142,18 @@ function Coin(props) {
                                         src: _cryptoIconPngDefault.default,
                                         alt: "Card image cap"
                                     }, void 0, false, {
-                                        fileName: "src/Coin.js",
+                                        fileName: "Coin.js",
                                         lineNumber: 70,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "src/Coin.js",
+                                fileName: "Coin.js",
                                 lineNumber: 66,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
-                            fileName: "src/Coin.js",
+                            fileName: "Coin.js",
                             lineNumber: 65,
                             columnNumber: 17
                         }, this),
@@ -23168,12 +23168,12 @@ function Coin(props) {
                                             className: "heading",
                                             children: val.symbol
                                         }, void 0, false, {
-                                            fileName: "src/Coin.js",
+                                            fileName: "Coin.js",
                                             lineNumber: 76,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "src/Coin.js",
+                                        fileName: "Coin.js",
                                         lineNumber: 75,
                                         columnNumber: 21
                                     }, this),
@@ -23184,7 +23184,7 @@ function Coin(props) {
                                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("dt", {
                                                     children: "Open"
                                                 }, void 0, false, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 80,
                                                     columnNumber: 25
                                                 }, this),
@@ -23195,7 +23195,7 @@ function Coin(props) {
                                                         " "
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 81,
                                                     columnNumber: 27
                                                 }, this),
@@ -23205,14 +23205,14 @@ function Coin(props) {
                                                         parseInt(val.openPrice)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 82,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("dt", {
                                                     children: "Close"
                                                 }, void 0, false, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 83,
                                                     columnNumber: 25
                                                 }, this),
@@ -23223,7 +23223,7 @@ function Coin(props) {
                                                         " "
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 84,
                                                     columnNumber: 27
                                                 }, this),
@@ -23233,14 +23233,14 @@ function Coin(props) {
                                                         parseInt(val.openPrice)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 85,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ _jsxDevRuntime.jsxDEV("dt", {
                                                     children: "General:"
                                                 }, void 0, false, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 86,
                                                     columnNumber: 25
                                                 }, this),
@@ -23250,7 +23250,7 @@ function Coin(props) {
                                                         parseInt(val.volume)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 87,
                                                     columnNumber: 25
                                                 }, this),
@@ -23260,42 +23260,42 @@ function Coin(props) {
                                                         parseInt(val.priceChange)
                                                     ]
                                                 }, void 0, true, {
-                                                    fileName: "src/Coin.js",
+                                                    fileName: "Coin.js",
                                                     lineNumber: 88,
                                                     columnNumber: 25
                                                 }, this)
                                             ]
                                         }, void 0, true, {
-                                            fileName: "src/Coin.js",
+                                            fileName: "Coin.js",
                                             lineNumber: 79,
                                             columnNumber: 23
                                         }, this)
                                     }, void 0, false, {
-                                        fileName: "src/Coin.js",
+                                        fileName: "Coin.js",
                                         lineNumber: 78,
                                         columnNumber: 21
                                     }, this)
                                 ]
                             }, void 0, true, {
-                                fileName: "src/Coin.js",
+                                fileName: "Coin.js",
                                 lineNumber: 74,
                                 columnNumber: 19
                             }, this)
                         }, void 0, false, {
-                            fileName: "src/Coin.js",
+                            fileName: "Coin.js",
                             lineNumber: 73,
                             columnNumber: 17
                         }, this)
                     ]
                 }, id, true, {
-                    fileName: "src/Coin.js",
+                    fileName: "Coin.js",
                     lineNumber: 57,
                     columnNumber: 15
                 }, this));
             })
         ]
     }, void 0, true, {
-        fileName: "src/Coin.js",
+        fileName: "Coin.js",
         lineNumber: 41,
         columnNumber: 10
     }, this));
@@ -23306,12 +23306,12 @@ _c = Coin;
 var _c;
 $RefreshReg$(_c, "Coin");
 
-  $parcel$ReactRefreshHelpers$5a9e.postlude(module);
+  $parcel$ReactRefreshHelpers$bf18.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-flippy":"x5eI6","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./../assets/crypto-icon.png":"jRVzD"}],"x5eI6":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-flippy":"x5eI6","./assets/crypto-icon.png":"7yM8n","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"x5eI6":[function(require,module,exports) {
 'use strict';
 Object.defineProperty(exports, '__esModule', {
     value: true
@@ -23802,6 +23802,44 @@ function _getPrototypeOf(o1) {
 }
 module.exports = _getPrototypeOf, module.exports.__esModule = true, module.exports["default"] = module.exports;
 
+},{}],"7yM8n":[function(require,module,exports) {
+module.exports = require('./helpers/bundle-url').getBundleURL('UckoE') + "crypto-icon.ef0c6ad9.png" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {
+};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return '/';
+}
+function getBaseURL(url) {
+    return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
+    if (!matches) throw new Error('Origin not found');
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
 },{}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
@@ -23952,45 +23990,7 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"jRVzD":[function(require,module,exports) {
-module.exports = require('./helpers/bundle-url').getBundleURL('bLxZJ') + "crypto-icon.ef0c6ad9.png" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {
-};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ('' + err.stack).match(/(https?|file|ftp):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return '/';
-}
-function getBaseURL(url) {
-    return ('' + url).replace(/^((?:https?|file|ftp):\/\/.+)\/[^/]+$/, '$1') + '/';
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ('' + url).match(/(https?|file|ftp):\/\/[^/]+/);
-    if (!matches) throw new Error('Origin not found');
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"7fZsi":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"7pCeG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 function useFetch() {
@@ -24009,6 +24009,6 @@ function useFetch() {
 }
 exports.default = useFetch;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jJvnD":[function() {},{}],"j7YWT":[function() {},{}]},["kn9T2","7nZVA","8lqZg"], "8lqZg", "parcelRequire7344")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"jJvnD":[function() {},{}],"4slL4":[function() {},{}]},["kn9T2","iKiqL","bB7Pu"], "bB7Pu", "parcelRequire7344")
 
-//# sourceMappingURL=index.975ef6c8.js.map
+//# sourceMappingURL=index.3d214d75.js.map
